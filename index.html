@@ -87,6 +87,64 @@
       .cover {
         background: no-repeat center/cover;
       }
+
+      /* custom tampilan responsive mobile phone */
+      @media (max-width: 480px) {
+        .background-header {
+          height: 265px;
+        }
+
+        h1.display-3 {
+          font-size: 20px;
+        }
+
+        h3.display-5 {
+          font-size: 22px;
+        }
+        .display-4 {
+          font-size: 16px;
+        }
+
+        .btn-lg {
+          font-size: 14px;
+        }
+        p.lead {
+          font-size: 14px;
+          padding: 0px 45px;
+        }
+        a.navbar-brand,
+        img {
+          height: auto;
+          width: 60%;
+        }
+
+        .ml-auto {
+          margin-left: 2px !important;
+        }
+
+        /* h4.card-title {
+          font-size: 18px;
+          padding: 0px 35px;
+        }
+
+        p.card-text {
+          padding: 0px 12px;
+        } */
+
+        div.card-body {
+          padding: 0px 30px;
+        }
+        .container {
+          width: 76%;
+        }
+        .col-12,
+        .col-md-6,
+        p {
+          padding: 0px 30px;
+        }
+        footer.col-lg-12 {
+        }
+      }
     </style>
 
     <title>Codepolitan</title>
@@ -159,7 +217,9 @@
     <section id="services" class="container-fluid service-style">
       <div class="row text-center p-5">
         <div class="col-12 pb-4">
-          <h2 class="mb-3 display-4">Mengapa memilih kami ?</h2>
+          <h2 class="mb-3 display-4" style="margin-top: 4rem !important">
+            Mengapa memilih kami ?
+          </h2>
         </div>
         <div class="col-12 col-sm-6 col-lg-3">
           <span class="fa-stack fa-2x" style="vertical-align: top">
@@ -218,7 +278,12 @@
     <section id="product" class="container">
       <div class="row text-center">
         <div class="col-12 pb-4">
-          <h2 class="display-4 text-center mb-5">Produk Kami</h2>
+          <h2
+            class="display-4 text-center mb-5"
+            style="margin-top: 4rem !important"
+          >
+            Produk Kami
+          </h2>
         </div>
 
         <!-- Produk pertama -->
@@ -328,7 +393,12 @@
     <!-- About Start -->
     <section id="about" class="bg-ligt">
       <div class="container-fluid">
-        <h2 class="display-4 text-center mb-4">Tentang Kami</h2>
+        <h2
+          class="display-4 text-center mb-4"
+          style="margin-top: 4rem !important"
+        >
+          Tentang Kami
+        </h2>
         <div class="row no-gutters">
           <div class="col-12 col-md-6">
             <div class="p-3">
@@ -412,7 +482,7 @@
           <a href="https://www.twitter.com/hanissiddiq" class="text-light"
             ><i class="fab fa-twitter"></i
           ></a>
-          <a href="https://www.instagram.com/_hanissiddiq" class="text-light"
+          <a href="https://www.instagram.com/_hanissiddiq/" class="text-light"
             ><i class="fab fa-instagram"></i
           ></a>
         </div>
